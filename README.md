@@ -1,88 +1,57 @@
-# Reporte de Gestión de Datos para la Escuela Colombiana de Ingeniería 
+# 📊 Reporte de Gestión de Datos - Universidad Escuela Colombiana de Ingeniería
 
-One Paragraph of project description goes here
+Este proyecto se centra en el análisis y optimización de la base de datos utilizada en los programas de maestría de la Universidad Escuela Colombiana de Ingeniería. Se realizó un estudio detallado de los modelos conceptual, lógico y entidad-relación con el objetivo de mejorar la gestión de información entre estudiantes, profesores y plataformas académicas.
 
-## Getting Started
+## 🚀 Primeros pasos  
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+**Clonar el repositorio**  
+git clone https://github.com/lalaro/Reporte-de-Gestion-de-Datos-ECI.git
+Luego de clonar el repo, se abren los archivos por independiente en cada programa necesario.
+### 📌 Requisitos previos  
 
-### Prerequisites
+Se necesita instalar las siguientes herramientas:  
 
-What things you need to install the software and how to install them
+- SQL Developer Data Modeler
+- Astah UML
+- Lector XML o un IDE (Entorno de desarrollo integrado)
 
-```
-Give examples
-```
+### ⚙️ Instalación  
 
-### Installing
+Para SQL Developer Data Modeler debe irse a https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/, descargar la versión 23.1.0.087.0806 y se ejecuta el archivo datamodeler.exe.
 
-A step by step series of examples that tell you how to get a development env running
+Para Astah UML debe irse a https://astah.net/support/astah-uml/?submissionGuid=19d5f945-1665-494f-b91b-9d684282fd29, descargar la versión 9.2 y se ejecuta el archivo astah-uml-10_0_0-a1b9b1-jre-64bit-setup, se debe tener en cuenta pedir la licencia para la ejecución del programa.
 
-Say what the step will be
+Para Visual Studio, debe irse a https://visualstudio.microsoft.com/es/downloads/, elige la versión que prefieras y sigue el proceso de instalación. Para el archivo XMLA, se pueden usar las bibliotecas de .NET para interactuar con XMLA mediante la XMLA API o servicios web. Microsoft proporciona bibliotecas y herramientas para trabajar con XMLA en SQL Server Analysis Services.
+Para interactuar con XMLA desde Visual Studio, se necesita usar una librería que haga el trabajo de enviar solicitudes SOAP basadas en XML.
 
-```
-Give the example
-```
+## Despliegue
 
-And repeat
+Agrega notas adicionales sobre cómo implementar esto en un sistema en vivo.
 
-```
-until finished
-```
+## Construido con
 
-End with an example of getting some data out of the system or using it for a little demo
+* [SQL Developer Data Modeler](https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/) - Herramienta para diseño del modelo entidad relación
+* [Astah UML](https://astah.net/support/astah-uml/?submissionGuid=19d5f945-1665-494f-b91b-9d684282fd29) - Herramienta para diseño del modelo conceptual
+* [Lector XML o un IDE](https://visualstudio.microsoft.com/es/downloads/) - Herramienta para el XMLA
 
-## Running the tests
+## Contribuyendo
 
-Explain how to run the automated tests for this system
+Por favor, lee [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de cambios (*pull requests*).
 
-### Break down into end to end tests
+## Versionado
 
-Explain what these tests test and why
+Usamos [SemVer](http://semver.org/) para el versionado. Para las versiones disponibles, consulta los [tags en este repositorio](https://github.com/your/project/tags).
 
-```
-Give an example
-```
+## Autores
 
-### And coding style tests
+* **Laura Valentina Rodríguez Ortegón** - *Reporte de Gestión de Datos para la ECI* - [Repositorio](https://github.com/lalaro/Reporte-de-Gestion-de-Datos-ECI.git)
 
-Explain what these tests test and why
+## Licencia
 
-```
-Give an example
-```
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.
 
-## Deployment
+## Reconocimientos
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+* Agradecimientos a la Escuela Colombiana de Ingeniería
+* La documentación de SQL Developer Data Modeler
+* La profesora Fabiola Del Toro Osorio
