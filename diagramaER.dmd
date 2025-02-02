@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diER" id="D0D0FB07-1D9B-BA5D-F4A7-D335E3C80C5D" version="3.5">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 20:48:01 UTC</createdTime>
+<ownerDesignName>NormalizacionModelo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D0D0FB07-1D9B-BA5D-F4A7-D335E3C80C5D</designId>
+</OSDM_Design>
