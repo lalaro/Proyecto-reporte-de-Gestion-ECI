@@ -2,12 +2,12 @@
 
 Este proyecto se centra en el análisis y optimización de la base de datos utilizada en los programas de maestría de la Universidad Escuela Colombiana de Ingeniería. Se realizó un estudio detallado de los modelos conceptual, lógico y entidad-relación con el objetivo de mejorar la gestión de información entre estudiantes, profesores y plataformas académicas.
 
-## 🚀 Primeros pasos  
+## Primeros pasos  
 
 **Clonar el repositorio**  
 git clone https://github.com/lalaro/Reporte-de-Gestion-de-Datos-ECI.git
 Luego de clonar el repo, se abren los archivos por independiente en cada programa necesario.
-### 📌 Requisitos previos  
+### Requisitos previos  
 
 Se necesita instalar las siguientes herramientas:  
 
@@ -15,7 +15,7 @@ Se necesita instalar las siguientes herramientas:
 - Astah UML
 - Lector XML o un IDE (Entorno de desarrollo integrado)
 
-### ⚙️ Instalación  
+### Instalación  
 
 Para SQL Developer Data Modeler debe irse a https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/, descargar la versión 23.1.0.087.0806 y se ejecuta el archivo datamodeler.exe.
 
