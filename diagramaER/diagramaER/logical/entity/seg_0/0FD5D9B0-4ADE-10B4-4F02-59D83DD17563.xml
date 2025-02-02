@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FD5D9B0-4ADE-10B4-4F02-59D83DD17563" name="ProgramasMaestria">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 20:51:04 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codgo" id="87AFEEF0-364D-098A-0ABC-DC6C9B453809">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:04:14 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="08762563-82DA-AF0D-C76A-D44693ACFC5B">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:05:20 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totalCreditos" id="F17210D1-E295-C366-B854-55F30CFC1EB9">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:05:39 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acreditacion" id="6C6246B9-6D83-162A-FF2F-345213BE3CFF">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:06:28 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="E68A23AB-9644-C698-DCB0-478A12E411C6">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:06:59 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoPrograma" id="771356AD-A6D5-39AD-39E6-06AB63951F36">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:07:19 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="165A87EA-FE23-F55B-0681-6B78C34AF98A" name="ProgramasMaestria PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:12:03 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87AFEEF0-364D-098A-0ABC-DC6C9B453809</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

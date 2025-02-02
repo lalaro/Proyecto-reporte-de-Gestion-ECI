@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F54BB81-A992-6BF9-348F-E96C78C6170D" name="TELEFONOS">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:54:26 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numTelefono" id="352BFD7A-632B-E233-B269-87AED73A7D7B">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:55:33 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAL_idPersonal" id="DEE73496-A997-A81A-19D2-29DCB8685344">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:56:11 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63C0DA0E-87A0-77DB-555E-690713472D82" referredColumn="39DAD7E2-5D9F-2AC1-E35C-D2AA0641983C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12B3A7A0-0398-461A-2E4E-9DE654C26E9F" name="TELEFONOS_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:55:39 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="352BFD7A-632B-E233-B269-87AED73A7D7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFAA8B46-353B-D287-4D5F-78AEEF25D8CC" name="TELEFONOS_PERSONAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:56:11 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEE73496-A997-A81A-19D2-29DCB8685344"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

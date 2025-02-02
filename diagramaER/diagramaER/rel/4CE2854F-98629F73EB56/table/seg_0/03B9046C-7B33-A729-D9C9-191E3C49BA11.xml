@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03B9046C-7B33-A729-D9C9-191E3C49BA11" name="PROFESORES">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:58:19 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersonal" id="AA4C50E2-44CD-C4EE-2934-B99B9B0B7371">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:59:49 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organizacionProfesor" id="95A88B47-A737-5E4E-BF8B-D91E3EDDF8F3">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:59:49 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAL_idPersonal" id="0C189F42-2BB1-CFBC-4F74-F25D1129B271">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:00:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4D7ED5C-A118-4D26-120E-9ACDA1AAF81A" referredColumn="39DAD7E2-5D9F-2AC1-E35C-D2AA0641983C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CECE0D9-BE6D-B540-E323-49205EB909AB" name="PROFESORES_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:59:49 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA4C50E2-44CD-C4EE-2934-B99B9B0B7371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F49C33F1-5E88-CBA6-FBE1-BA0405A3C7C8" name="PROFESORES_PERSONAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:00:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C189F42-2BB1-CFBC-4F74-F25D1129B271"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

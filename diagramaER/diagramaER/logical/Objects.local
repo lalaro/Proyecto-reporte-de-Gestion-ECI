@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="B44AA51C-F65B-4233-B701-65637B1689BF" name="CiclosElectivos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="3454093F-BED8-183C-D5CD-7AF93FA17CF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7CE545DD-568C-4740-4CDF-B31D9465FB0B" name="Estudiantes" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="3454093F-BED8-183C-D5CD-7AF93FA17CF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BC5B7709-5997-C312-E4E0-5105533C9319" name="Materias" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="3454093F-BED8-183C-D5CD-7AF93FA17CF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D401C859-CB3F-67FB-8E52-E14E2F38C4CB" name="Personal" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="3454093F-BED8-183C-D5CD-7AF93FA17CF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9B255C55-EA34-69D4-1AB3-3D52FFDB8D05" name="Profesores" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="3454093F-BED8-183C-D5CD-7AF93FA17CF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0FD5D9B0-4ADE-10B4-4F02-59D83DD17563" name="ProgramasMaestria" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="3454093F-BED8-183C-D5CD-7AF93FA17CF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="83F39B4B-A244-9551-9CB0-E8975E8F1A51" name="SituacionesAcademicas" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="3454093F-BED8-183C-D5CD-7AF93FA17CF9" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

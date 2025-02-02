@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C6C8CD8-4C5C-27F9-A085-5C65D25B42C1" name="ESTUDIANTE-PROGRAMA">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:18:26 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="estadoEstudiante" id="EFDC7845-48D1-6883-CB9A-027925F1B97B">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:20:38 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idEstudiante" id="1C7D9DF4-3269-4596-EFAD-495F071E166A">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:20:38 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idPrograma" id="BA15D775-2598-F56C-A893-4141C1119237">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:20:38 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ADA2BC9-CE5B-F4FC-60E7-C44409854657" name="ESTUDIANTE-PROGRAMA_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:20:38 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7D9DF4-3269-4596-EFAD-495F071E166A"/>
+<colUsage columnID="BA15D775-2598-F56C-A893-4141C1119237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

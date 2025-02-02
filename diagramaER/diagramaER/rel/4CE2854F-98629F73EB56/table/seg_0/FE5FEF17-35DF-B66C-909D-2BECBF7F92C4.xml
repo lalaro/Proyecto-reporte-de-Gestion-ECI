@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE5FEF17-35DF-B66C-909D-2BECBF7F92C4" name="CURSOS">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:27:32 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCurso" id="381B60B7-514D-293F-F9E6-4E1264096A89">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroCatalogo" id="4695A335-9C47-D79F-12DB-CBBF371249C7">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcionCurso" id="704D3428-FAD2-3C7C-39CA-624EDE6B55F0">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creditos" id="40860BF3-68B2-EDF0-9AEC-AA9CA3F88F31">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoCurso" id="853959E4-38A0-A081-6AF3-20C104CEA97C">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cicloElectivo" id="9B82AD8B-8EB1-6B3F-A00B-4C5B29751EE5">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idNotas" id="ED9DB115-24EF-E9F5-A179-672D06E6CE20">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAMAS_idPrograma" id="25B5FEE4-79BB-ACCA-BAA8-93B26ABFB9AD">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:31:10 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BF2B961-BCA6-9141-0CED-FD90D7CC2220" referredColumn="F41F296B-3DDB-AB03-35D5-3085F2065CEE"/>
+</associations>
+</Column>
+<Column name="PROGRAMAS_idCurso" id="EF170010-AE1D-715F-D984-CDF0B6E83606">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:31:10 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BF2B961-BCA6-9141-0CED-FD90D7CC2220" referredColumn="873C0926-8B52-9D51-3146-5431073B9FDC"/>
+</associations>
+</Column>
+<Column name="ESTUDIANTES_idPersonal" id="732E99A7-BFD4-E212-E202-873066195DDB">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 23:03:47 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F673CD5E-56C8-6D8D-07C0-A665292B9407" referredColumn="7B730361-FBD0-8BAB-EED1-E0DA379535DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05339BC9-BBBB-1B2A-17B7-4681EF57C81E" name="CURSOS_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="381B60B7-514D-293F-F9E6-4E1264096A89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F64AB654-5518-6CD2-FF6E-AB184EC7D52B" name="CURSOS_PROGRAMAS_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:31:10 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25B5FEE4-79BB-ACCA-BAA8-93B26ABFB9AD"/>
+<colUsage columnID="EF170010-AE1D-715F-D984-CDF0B6E83606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF54E959-9A37-1A1E-2D5D-4FEF89885BC5" name="CURSOS_ESTUDIANTES_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 23:03:47 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="732E99A7-BFD4-E212-E202-873066195DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

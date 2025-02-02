@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31A07F74-CF72-6250-45FF-5A7F6B0D068C" name="TIPOSIDENTIFICACIONES">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:38:16 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numIdentificacion" id="B927DFF4-1795-E915-3E3F-CED91FB97753">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:39:21 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoIdentificacion" id="B1FF9F27-0979-0298-AB7E-7CB65CCAAA88">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:39:21 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="930EB813-C54A-70B6-D9D4-A18FCB91FF75">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:51:12 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAL_idPersonal" id="FF1BD835-F603-6A20-514C-D324E85B87B5">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:46:49 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="762977A3-3716-48CB-F6E7-B6E620635C39" referredColumn="39DAD7E2-5D9F-2AC1-E35C-D2AA0641983C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AC738D5-9C69-4869-4F84-8E894EB2F867" name="TIPOIDENTIFICACION_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:51:12 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B927DFF4-1795-E915-3E3F-CED91FB97753"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9777FE90-860F-0F86-8BD5-422DA9F452EA" name="TIPOSIDENTIFICACIONES__IDX">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:47:02 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF1BD835-F603-6A20-514C-D324E85B87B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33AFCA9C-51C9-962E-CEA4-2A6C3C1667F3" name="TIPOSIDENTIFICACIONES_PERSONAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:46:49 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF1BD835-F603-6A20-514C-D324E85B87B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<impliedForeignKeys itemClass="oracle.dbtools.crest.model.design.relational.ImpliedForeignKey">
+<impliedForeignKey name="ImpliedForeignKey_2" id="60558067-0DBE-6346-0E00-FAF9B1682A51">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:48:23 UTC</createdTime>
+<ownerDesignName>NormalizacionModelo</ownerDesignName>
+</impliedForeignKey>
+</impliedForeignKeys>
+</Table>

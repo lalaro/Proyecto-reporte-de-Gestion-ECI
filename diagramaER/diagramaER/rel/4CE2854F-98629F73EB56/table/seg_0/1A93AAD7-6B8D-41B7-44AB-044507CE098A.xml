@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A93AAD7-6B8D-41B7-44AB-044507CE098A" name="INSCRIPCIONES-CURSOS">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:30:38 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idInscripcion" id="4CCD39F7-F296-8B6A-9836-F6AE9A9184B0">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:33:41 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idPrograma" id="0D36B942-159A-4173-B136-CAC8D1A7C7CB">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:33:41 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoInscripcion" id="BE776E95-B89C-6682-1BBE-3AAECFFDA8A2">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:33:41 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaInscripcion" id="D382D526-E1FA-B715-B741-CE6421618670">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:33:41 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSOS_idCurso" id="7279D7C7-417A-C7A9-7CC9-C955339C2F22">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:34:02 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03614BC7-EF40-9F93-A996-7B26F8A5FABF" referredColumn="381B60B7-514D-293F-F9E6-4E1264096A89"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E4E3000-9DB3-72F8-442E-FD00696193D7" name="INSCRIPCIONES-CURSO_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:33:52 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CCD39F7-F296-8B6A-9836-F6AE9A9184B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47E88C6F-8861-0B7C-ACA8-80CB7F0E9D2A" name="INSCRIPCIONES-CURSO_CURSOS_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:34:02 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7279D7C7-417A-C7A9-7CC9-C955339C2F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

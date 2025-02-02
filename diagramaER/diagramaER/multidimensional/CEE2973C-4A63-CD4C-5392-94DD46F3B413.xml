@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="CEE2973C-4A63-CD4C-5392-94DD46F3B413" mainViewID="1AB16847-1152-043F-6140-E67E4342414F" boundModel="3454093F-BED8-183C-D5CD-7AF93FA17CF9">
+<createdBy>laura</createdBy>
+<createdTime>2025-02-02 02:48:03 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

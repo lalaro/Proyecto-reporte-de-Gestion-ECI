@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC5B7709-5997-C312-E4E0-5105533C9319" name="Materias">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:34:37 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numClase" id="FFC4A5D2-1019-D591-0D80-E0824039EEB5">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:35:18 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AFEA5CA8-116B-385C-AAE9-196129B97993">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:35:39 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="credCurso" id="1B214BC0-33B3-22C9-FBF1-BDA97B8DB9D6">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:36:04 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoCurso" id="72739836-A9DA-9019-AE45-2CF83D2EA0B0">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:36:14 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desComponenteCurso" id="263E471E-AAE1-BA98-AB17-C6CC5D74D232">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:36:32 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccionGrupo" id="3C090AE9-60DF-7002-E282-66CA060D03AF">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:36:54 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89ECB2DB-8719-973F-8766-0039EB898A23" name="Materias PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:35:38 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFC4A5D2-1019-D591-0D80-E0824039EEB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

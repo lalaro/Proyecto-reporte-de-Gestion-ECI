@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83F39B4B-A244-9551-9CB0-E8975E8F1A51" name="SituacionesAcademicas">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:14:21 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSituacionAcademica" id="4E55D1DF-1402-DCF3-8B28-50871F215935">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:14:30 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPlataforma" id="D1F3C097-A78E-FFDA-66D7-83D995B1C73D">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:14:56 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivacionAccion" id="FD77464F-DE11-0863-BA68-85D68E751D12">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:15:25 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accionSituacionAcademica" id="80442B9E-E7F4-6A4B-0848-820838621184">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:15:49 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descTipoCancelacion" id="3093F647-160B-2F65-42B0-B03A2567E92D">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:17:22 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1157C4BD-8420-FA81-CBD0-ACF8614DC68C" name="SituacionesAcademicas PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:14:54 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E55D1DF-1402-DCF3-8B28-50871F215935</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

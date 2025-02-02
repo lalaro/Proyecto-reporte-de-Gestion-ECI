@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E9D889A-F27F-ADA3-4F9B-A01239837009" containerWithKeyObject="C076F38B-6922-C7DE-4E88-0B68AC13AC10" localFKIndex="A12CA969-DDD1-3472-03BE-77B8D9F116A9" name="PERSONAL_TIPOSIDENTIFICACIONES_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:47:40 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<referredTableLongName>TIPOSIDENTIFICACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31A07F74-CF72-6250-45FF-5A7F6B0D068C</referredTableID>
+<keyObject>2AC738D5-9C69-4869-4F84-8E894EB2F867</keyObject>
+<referredKeyID>2AC738D5-9C69-4869-4F84-8E894EB2F867</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numIdentificacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

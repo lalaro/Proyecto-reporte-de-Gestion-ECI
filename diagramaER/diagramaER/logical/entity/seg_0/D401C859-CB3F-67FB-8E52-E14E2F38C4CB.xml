@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D401C859-CB3F-67FB-8E52-E14E2F38C4CB" name="Personal">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:18:56 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPersona" id="CE161744-2D93-F066-6A1D-519E399018D1">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:19:10 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AC389CEA-D493-4C91-55CD-A972A00C3A47">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:19:18 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoDocumento" id="5E230CAB-6FE9-3D20-719F-96AA429003D8">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:21:14 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="04F58494-664E-E7CF-6B79-7E1628CB7B86">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:22:13 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="9A83B03B-E142-86DD-2E9D-3D018776AD02">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:20:48 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoPersona" id="C6A62A73-1CF2-B5DB-1D1B-CD86EF03C47D">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:22:05 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correoInstitucional" id="91692C8D-56D2-F6F9-BC38-1E7F99743447">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:23:00 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPrograma" id="89BC1FAD-DF95-7A27-A5CD-7F3C0725BF47">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:23:49 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="787C62AA-2589-8C34-51EE-4AC5805CCC20" name="Personal PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:19:42 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE161744-2D93-F066-6A1D-519E399018D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

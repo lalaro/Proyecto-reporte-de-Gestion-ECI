@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3307B84C-5B0C-9D39-3575-AE09CB50DC52" name="SEMESTRES">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:07:22 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSemestre" id="E604EA74-06FD-C1B1-34D7-428B457D2748">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:09:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numSemestre" id="4EBF1900-8899-211D-036D-BA393512D343">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:09:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoSemestre" id="35DE91A5-3875-D7F6-89E2-5C6B3C6200A2">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:09:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="periodoSemestre" id="4555E240-5B0D-191D-5631-69705D224CE4">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:09:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTES_idPersonal" id="6983140F-CD17-397B-BB67-489B2BEA438C">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:10:03 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="286B234D-949A-E63C-5F0A-87C12D862417" referredColumn="7B730361-FBD0-8BAB-EED1-E0DA379535DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="797877B2-F73E-62F8-8692-20DE0D47874F" name="SEMESTRES_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:09:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E604EA74-06FD-C1B1-34D7-428B457D2748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A03E099D-0BFD-73CF-EF66-4AF7A8918A7E" name="SEMESTRES_ESTUDIANTES_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:10:03 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6983140F-CD17-397B-BB67-489B2BEA438C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

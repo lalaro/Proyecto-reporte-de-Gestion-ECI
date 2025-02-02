@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="43BE1A5B-598E-D7F2-271D-0621BB9F3F49" containerWithKeyObject="A3199024-4453-BEA6-E47E-C36302BBF46F" localFKIndex="DDCEB6D3-167B-BFE6-D74C-833E774F734C" name="NOTASCURSO_EVALUACIONES_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:53:16 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<referredTableLongName>EVALUACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4DB50A2-254C-3C5F-0EDA-EB12A360A13B</referredTableID>
+<keyObject>0660AAC1-1DD1-7B49-A60A-471BA026D685</keyObject>
+<referredKeyID>0660AAC1-1DD1-7B49-A60A-471BA026D685</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEvaluacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

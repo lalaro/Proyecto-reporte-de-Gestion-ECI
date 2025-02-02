@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C076F38B-6922-C7DE-4E88-0B68AC13AC10" name="PERSONAL">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:30:50 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="2FEB0B09-E298-74B5-E3BB-7139927DE2E6">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:36:57 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idPersonal" id="39DAD7E2-5D9F-2AC1-E35C-D2AA0641983C">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:36:57 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="E9C4B55F-9259-FFD5-CF59-11D3360DE82A">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:36:57 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoIdentificacion" id="F4EDF17E-4AC9-4259-0947-C40FB9178A62">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:36:57 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoPersona" id="6BA5DE06-05ED-907E-BE64-034A06CDAFF1">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:36:57 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correoInstitucional" id="A9191772-F063-0FD8-5D47-2D0433028F0C">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:36:57 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPOSIDENTIFICACIONES_numIdentificacion" id="8FCF474E-9F00-E631-E60C-DBFDA8E4AD43">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:47:40 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E9D889A-F27F-ADA3-4F9B-A01239837009" referredColumn="B927DFF4-1795-E915-3E3F-CED91FB97753"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19C2BCE6-536D-29C5-79DE-503C2830F48E" name="PERSONAL_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 05:36:57 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39DAD7E2-5D9F-2AC1-E35C-D2AA0641983C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D424AE1-029C-564B-7F4F-1C9E2BB6A167" name="PERSONAL__IDX">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:47:55 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FCF474E-9F00-E631-E60C-DBFDA8E4AD43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A12CA969-DDD1-3472-03BE-77B8D9F116A9" name="PERSONAL_TIPOSIDENTIFICACIONES_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:47:40 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FCF474E-9F00-E631-E60C-DBFDA8E4AD43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

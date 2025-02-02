@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4DB50A2-254C-3C5F-0EDA-EB12A360A13B" name="EVALUACIONES">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:37:00 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEvaluacion" id="D9B25772-1F4B-9A8E-80D3-D0ABE8EE90D1">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:40:21 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notas" id="E1369E15-4952-F826-7BD3-366EBC89B004">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:40:21 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentajes" id="9755E172-7A24-32C3-F2E4-5989B029CBB6">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:40:21 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTASCURSO_idEvaluacion" id="76968140-E7F7-9685-BCAB-2C9230320694">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:52:46 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36074ECB-BB82-AE1C-9117-D8EAA26FBBEF" referredColumn="F3ABD8FC-006C-A1DC-7686-1595152F0504"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0660AAC1-1DD1-7B49-A60A-471BA026D685" name="EVALUACIONES_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:40:36 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B25772-1F4B-9A8E-80D3-D0ABE8EE90D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0B01320-569B-E114-9335-42C055E946E7" name="EVALUACIONES__IDX">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:53:03 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76968140-E7F7-9685-BCAB-2C9230320694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C30EF35-A140-37E8-61B8-9AEF1FCF316D" name="EVALUACIONES_NOTASCURSO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:52:46 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76968140-E7F7-9685-BCAB-2C9230320694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

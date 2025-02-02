@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93028E2D-4B04-5090-D757-ED17D7241151" name="ESTUDIANTES">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:04:07 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersonal" id="7B730361-FBD0-8BAB-EED1-E0DA379535DC">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:06:45 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAL_idPersonal" id="3BA7A6A2-7302-2E88-4127-63AD064B3373">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:06:53 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02E55D3C-CE9D-66D9-45AB-C128C33A9FB6" referredColumn="39DAD7E2-5D9F-2AC1-E35C-D2AA0641983C"/>
+</associations>
+</Column>
+<Column name="ESTUDIANTE-PROGRAMA_idEstudiante" id="F1A4522D-7C25-6596-FFF1-3B80402545EC">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 23:00:56 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36982FBD-8788-B4CD-E2E7-A9C526302BAD" referredColumn="1C7D9DF4-3269-4596-EFAD-495F071E166A"/>
+</associations>
+</Column>
+<Column name="ESTUDIANTE-PROGRAMA_idPrograma" id="2CBF8639-BD69-AF8C-5818-E5D4383FEFC3">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 23:00:56 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36982FBD-8788-B4CD-E2E7-A9C526302BAD" referredColumn="BA15D775-2598-F56C-A893-4141C1119237"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CB87C02-46AD-F7B0-B87E-14A363EE21D6" name="ESTUDIANTES_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:06:45 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B730361-FBD0-8BAB-EED1-E0DA379535DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54620863-31BA-E908-63A7-D57692478460" name="ESTUDIANTES__IDX">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 23:01:42 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1A4522D-7C25-6596-FFF1-3B80402545EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98A04C5A-BCAE-88B3-4B7C-D02BC0B69836" name="ESTUDIANTES_PERSONAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 06:06:53 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BA7A6A2-7302-2E88-4127-63AD064B3373"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA068C1B-9D17-91F0-BE4B-FBC92EA54516" name="ESTUDIANTES_ESTUDIANTE-PROGRAMA_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 23:00:56 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1A4522D-7C25-6596-FFF1-3B80402545EC"/>
+<colUsage columnID="2CBF8639-BD69-AF8C-5818-E5D4383FEFC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

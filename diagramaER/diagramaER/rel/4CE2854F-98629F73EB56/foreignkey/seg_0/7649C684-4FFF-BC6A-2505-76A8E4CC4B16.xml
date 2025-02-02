@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7649C684-4FFF-BC6A-2505-76A8E4CC4B16" containerWithKeyObject="7693AEFA-A1EE-1AD0-D81B-68BDBEC0955B" localFKIndex="36CC7A9D-4A9B-1A8F-306B-CCF976C3ADD1" name="PROGRAMAS_ESTADOSPROGRAMAS_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:55:35 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<referredTableLongName>ESTADOSPROGRAMAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>551589E6-279C-8D82-9C79-94DC735C0690</referredTableID>
+<keyObject>B99B9A5F-88A3-A686-0CAC-4C09D83F5BC7</keyObject>
+<referredKeyID>B99B9A5F-88A3-A686-0CAC-4C09D83F5BC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEstado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

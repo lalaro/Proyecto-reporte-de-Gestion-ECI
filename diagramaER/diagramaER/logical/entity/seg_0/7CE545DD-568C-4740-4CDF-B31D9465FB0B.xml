@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CE545DD-568C-4740-4CDF-B31D9465FB0B" name="Estudiantes">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:30:11 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoDePrograma" id="5B85BB57-8CC9-BF42-6849-7CAA22FAA882">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:30:17 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="programa" id="585ED783-196D-6AC9-B4D9-18E7356AD20E">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:30:40 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="622421F9-5D45-EA5A-13A9-E3EE2898AB07">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:31:09 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoEstudiante" id="D4564153-04D2-E222-B941-DD3618691486">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:32:53 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="semestre" id="2787E913-8E63-C5FF-54AE-4108C90BFE35">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:33:31 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="añoIngreso" id="2C2F68D8-D06A-9F39-941F-54D24173D79D">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-02 21:33:56 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<engineerTo>
+<item key="4CE2854F-8F03-AB81-5F5E-98629F73EB56" value="true"/>
+<item key="42AFEE72-F8E9-EBD4-EE6E-0147D0F3F159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

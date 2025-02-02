@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="551589E6-279C-8D82-9C79-94DC735C0690" name="ESTADOSPROGRAMAS">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:25:18 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstado" id="37EA86E2-1F92-FACC-64D6-679B32174D5C">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:27:09 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoPrograma" id="D7296EA4-5F2F-7454-87E6-1CEFF62C0FA1">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:26:36 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B99B9A5F-88A3-A686-0CAC-4C09D83F5BC7" name="ESTADOSPROGRAMAS_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:27:09 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37EA86E2-1F92-FACC-64D6-679B32174D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

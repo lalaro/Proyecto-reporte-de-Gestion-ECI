@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3199024-4453-BEA6-E47E-C36302BBF46F" name="NOTASCURSO">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:34:23 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEvaluacion" id="F3ABD8FC-006C-A1DC-7686-1595152F0504">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:35:32 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="evaluacion" id="BB6F4FC2-9034-8846-C08D-06E9AF4026D8">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:35:32 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota" id="E7709DCE-2FB5-9B2C-6679-D134C76F1075">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:35:32 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSOS_idCurso" id="691E6B7F-BB3B-4CE6-2FD8-21EB9A529A99">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:35:40 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC2BD492-6AD7-4AB5-9F12-D0DD0CF0EA17" referredColumn="381B60B7-514D-293F-F9E6-4E1264096A89"/>
+</associations>
+</Column>
+<Column name="EVALUACIONES_idEvaluacion" id="00A36903-DAE8-5CF2-913B-B0639451799B">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:53:16 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43BE1A5B-598E-D7F2-271D-0621BB9F3F49" referredColumn="D9B25772-1F4B-9A8E-80D3-D0ABE8EE90D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1270288A-8220-112C-07F7-5198553B5524" name="NOTASCURSO_PK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:35:32 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3ABD8FC-006C-A1DC-7686-1595152F0504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7F72C05-5636-7C2A-A6AA-1201CAACE7A5" name="NOTASCURSO__IDX">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:53:38 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A36903-DAE8-5CF2-913B-B0639451799B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DAF7D5D-40DC-EB7C-A807-F4841BF0255D" name="NOTASCURSO_CURSOS_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:35:40 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="691E6B7F-BB3B-4CE6-2FD8-21EB9A529A99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDCEB6D3-167B-BFE6-D74C-833E774F734C" name="NOTASCURSO_EVALUACIONES_FK">
+<createdBy>laura</createdBy>
+<createdTime>2024-10-16 22:53:16 UTC</createdTime>
+<ownerDesignName>diagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A36903-DAE8-5CF2-913B-B0639451799B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
