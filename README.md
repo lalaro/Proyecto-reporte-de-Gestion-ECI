@@ -24,10 +24,6 @@ Para Astah UML debe irse a https://astah.net/support/astah-uml/?submissionGuid=1
 Para Visual Studio, debe irse a https://visualstudio.microsoft.com/es/downloads/, elige la versión que prefieras y sigue el proceso de instalación. Para el archivo XMLA, se pueden usar las bibliotecas de .NET para interactuar con XMLA mediante la XMLA API o servicios web. Microsoft proporciona bibliotecas y herramientas para trabajar con XMLA en SQL Server Analysis Services.
 Para interactuar con XMLA desde Visual Studio, se necesita usar una librería que haga el trabajo de enviar solicitudes SOAP basadas en XML.
 
-## Despliegue
-
-Agrega notas adicionales sobre cómo implementar esto en un sistema en vivo.
-
 ## Construido con
 
 * [SQL Developer Data Modeler](https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/) - Herramienta para diseño del modelo entidad relación
